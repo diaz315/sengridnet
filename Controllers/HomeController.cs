@@ -87,7 +87,7 @@ namespace SendGridNet.Controllers
                     html = System.IO.File.ReadAllText(path)
                 };
 
-                int rango = 1;
+                int rango = 1000;
                 repository.Asignar(rango, Util.GetMac());
 
                 int nucleos = 1;
